@@ -79,3 +79,11 @@ footer{
     padding: 80px;
     text-align: center;
 }
+
+@media (max-width: 500px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
